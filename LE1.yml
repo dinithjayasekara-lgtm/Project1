@@ -1,0 +1,25 @@
+version: 2
+sources: []
+models:
+  - name: LE1
+    description: ''
+    constraints:
+      - type: primary_key
+        columns:
+          - id
+    columns:
+      - name: id
+        constraints: []
+        description: ''
+        data_type: INT
+        tests: []
+      - name: name
+        constraints: []
+        description: ''
+        data_type: ''
+        tests: []
+      - name: age
+        constraints: []
+        description: ''
+        data_type: ''
+        tests: []
