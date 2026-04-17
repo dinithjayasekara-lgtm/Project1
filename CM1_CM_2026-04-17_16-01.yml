@@ -1,0 +1,15 @@
+version: 2
+sources: []
+models:
+  - name: CE1
+    description: ''
+    constraints: []
+    columns: []
+  - name: CE2
+    description: ''
+    constraints: []
+    columns: []
+  - name: CE3
+    description: ''
+    constraints: []
+    columns: []
