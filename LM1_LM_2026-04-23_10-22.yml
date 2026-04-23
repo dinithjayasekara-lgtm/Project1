@@ -1,0 +1,41 @@
+version: 2
+sources: []
+models:
+  - name: LE1
+    description: ''
+    constraints: []
+    columns:
+      - name: Id
+        constraints: []
+        description: ''
+        data_type: INT
+        tests: []
+      - name: Name
+        constraints: []
+        description: ''
+        data_type: TEXT
+        tests: []
+  - name: LE2
+    description: ''
+    constraints:
+      - type: primary_key
+        columns:
+          - Id
+    columns:
+      - name: Id
+        constraints: []
+        description: ''
+        data_type: INT
+        tests: []
+  - name: LE3
+    description: Test
+    constraints:
+      - type: primary_key
+        columns:
+          - ID
+    columns:
+      - name: ID
+        constraints: []
+        description: ''
+        data_type: INT
+        tests: []
